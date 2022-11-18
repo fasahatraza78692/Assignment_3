@@ -1,12 +1,15 @@
 #include<stdio.h>
 int main()
 {
-	int x,y;
-	printf("Enter 2 number");
-	scanf("%d %d",&x,&y);
-	if()
-	   
-	else
-	   printf("Number is not divisible by 5");
-	return 0;
+	int a,b,c,D;
+	printf("Enter the coifficient of x^2,x and constant\n");
+	scanf("%d %d %d",&a,&b,&c);
+	D=b*b-4*a*c;
+	if(D<0)
+		printf("Both roots are imaginary\n");
+	else if(D==0)
+		printf("Both roots are real and equal\n");
+	     else
+		printf("Roots are real and distinct\n");
+return 0;
 }
